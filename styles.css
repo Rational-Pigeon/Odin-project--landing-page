@@ -1,0 +1,118 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body,
+.header,
+ul,
+.banner-container,
+.login-cta,
+.container,
+.box-description,
+.quote-container,
+.cta-container,
+.cta,
+.footer,
+.banner {
+	display: flex;
+}
+
+body,
+.login-cta,
+.box-description,
+.cta {
+	flex-flow: nowrap column;
+}
+
+.header,
+.footer {
+	justify-items: center;
+	background-color: #1F2937;
+}
+
+.header ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	gap: 16px;
+}
+
+.header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+.text,
+.header ul {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.header {
+	justify-content: space-between;
+	padding: 16px 64px;
+	gap: 16px;
+}
+
+body {
+	margin: 0px;
+}
+
+.banner-container {
+	background-color: #1F2937;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+	padding: 64px;
+}
+
+.login-cta {
+	flex-flow: nowrap column;
+	width: 500px;
+	flex: 0 1 auto;
+}
+
+.banner {
+	background-color: #6d747d;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	aspect-ratio: 9/4;
+}
+
+.banner p {
+	color: white;
+}
+
+.login-cta h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+	margin: 0px;
+}
+
+.login-cta.text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.login-btn {
+	width: 128px;
+	background-color: #3882f6;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px;
+	border-radius: 8px;
+}
