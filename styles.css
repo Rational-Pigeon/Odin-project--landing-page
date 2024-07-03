@@ -27,7 +27,8 @@ ul,
 body,
 .login-cta,
 .box-description,
-.cta {
+.cta,
+.quote-container {
 	flex-flow: nowrap column;
 }
 
@@ -41,7 +42,7 @@ body,
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
-	gap: 16px;
+	gap: 32px;
 }
 
 .header a {
@@ -79,7 +80,6 @@ body {
 }
 
 .login-cta {
-	flex-flow: nowrap column;
 	width: 500px;
 	flex: 0 1 auto;
 }
@@ -173,4 +173,27 @@ body {
 
 .box-description {
 	justify-content: center;
+}
+
+.quote-container {
+	background-color: #e5e7eb;
+	justify-content: center;
+	align-items: center;
+	padding: 64px;
+}
+
+.quote {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: oblique;
+	margin: 0px;
+	max-width: 500px;
+}
+
+.author {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: -16px;
+	text-align: right;
+	padding-left: 200px;
 }
