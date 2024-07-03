@@ -233,3 +233,9 @@ body {
 	border-radius: 6px;
 	padding: 8px 32px;
 }
+
+.footer {
+	padding: 32px;
+	justify-content: center;
+	color: #e5e7eb;
+}
